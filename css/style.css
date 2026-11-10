@@ -34,3 +34,11 @@ table.sp{border-collapse:collapse;width:100%;background:#fff}.sp td,.sp th{paddi
 .sc{overflow-x:auto}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}
 #toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:12px 22px;border-radius:14px;display:none;z-index:99}
 @media(prefers-reduced-motion:no-preference){.dev{transition:transform .15s}.dev:hover{transform:translateY(-4px)}}
+.bh{color:#fff;padding:8px 18px;border-radius:14px;margin:28px 0 10px;font-size:19px}
+.lt{border-collapse:collapse;width:100%;min-width:600px;background:#fff;margin-bottom:6px}
+.lt th{color:#fff;padding:8px 10px;border:1px solid #e5e5f0;text-align:left}
+.lt td{border:1px solid #e5e5f0;padding:4px;vertical-align:top}
+.lt td:first-child{font-weight:700;background:#FFF6D6;padding:8px 10px;min-width:130px}
+.lt.free td:first-child{background:none;font-weight:400;padding:4px;min-width:0}
+.lt textarea,.lt input,.lt select{border-width:1px;border-radius:8px}.lt textarea{min-height:70px}
+.info p{margin:4px 0 0}
